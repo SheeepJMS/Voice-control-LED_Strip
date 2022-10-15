@@ -20,18 +20,11 @@ Terminal 1
   $ python main.py
 
 
-
-
-
-
 Open a second terminal and send an MQTT message using the following command:
 
 Terminal 2
 
   $ mosquitto_pub -h "localhost" -t "led/lights/pattern" -m "red blue black"
-  
-  
-  
   
 
 Run the following command in Terminal 2 to make the LED strip animate:
