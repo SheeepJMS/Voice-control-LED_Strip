@@ -13,15 +13,15 @@ We must have the Mosquitto MQTT broker service installed and running on our
 Raspberry Pi, plus the Mosquitto MQTT clients tools.
 
 Start the main.py script, as shown:
-# Terminal 1
-(venv) $ cd led_mqtt_service
-(venv) $ python main.py
+Terminal 1
+$ cd led_mqtt_service
+$ python main.py
 
 Open a second terminal and send an MQTT message using the following command:
-# Terminal 2
+Terminal 2
 $ mosquitto_pub -h "localhost" -t "led/lights/pattern" -m "red blue black"
 
 Run the following command in Terminal 2 to make the LED strip animate:
-# Terminal 2
+Terminal 2
 $ mosquitto_pub -h "localhost" -t "led/lights/animation" -m "left"
 
