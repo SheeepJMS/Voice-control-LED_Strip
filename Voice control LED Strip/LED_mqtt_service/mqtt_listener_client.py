@@ -1,6 +1,4 @@
 """
-File: chapter14/tree_api_service/servo_controller.py
-
 Receives MQTT messages for controlling APA102 and Servo and
 republishes them locally using PyPubSub based on mappings
 defined in config.py.
