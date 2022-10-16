@@ -1,6 +1,4 @@
 """
-File: chapter14/tree_api_service/apa102_controller.py
-
 Receives and processes PyPubSub messages for controlling APA102 LED Strip.
 
 Built and tested with Python 3.7 on Raspberry Pi 4 Model B
